@@ -1,0 +1,70 @@
+
+
+body{
+    height: 100%;
+    width: 100%;
+  
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+    
+}
+.ear{
+    
+    height: 850px;
+    border-radius: 2px solid red;
+
+    background:url("logo1.jpeg") no-repeat ;
+    background-position: center;
+    background-size: cover;
+
+
+}
+#logo{
+    
+  
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 320px;
+    border-radius: 35%;
+    border: 1px solid rgb(157, 124, 222);
+    box-shadow: 20px 30px 90px rgb(245, 70, 1);
+    border-radius:1px solid rgb(29, 21, 40);
+    background:url(2.jpeg) no-repeat;
+    background-size: cover;
+    animation: nitish 1.5s backwards linear infinite;
+
+}
+@keyframes nitish{
+
+         0%{ 
+            transform :translatex(0%);
+         }
+         50%{
+            transform:transform(0%);
+         }
+         100%{
+            transform: translatex(10%);
+         }
+
+}
+
+
+#logo:before{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 20px;
+    left: 20px;
+    
+    border: 1px solid rgb(25, 199, 34);
+    box-shadow: 0px 25px 50px rgba(252, 32, 16, 0.962);
+
+
+}
+
+  
